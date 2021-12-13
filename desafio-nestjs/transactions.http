@@ -1,0 +1,21 @@
+GET http://localhost:3000/transactions
+
+###
+
+POST http://localhost:3000/transactions
+Content-Type: application/json
+
+{
+    "account_id": 35642,
+    "amount": 400
+}
+
+###
+
+PATCH  http://localhost:3000/transactions/cc45749b-5e9c-45f6-8156-2d55e664a64d
+Content-Type: application/json
+
+{
+    "account_id": 35642,
+    "amount": 450
+}
